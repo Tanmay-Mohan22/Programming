@@ -31,11 +31,6 @@ int main()
 		}
 		printf("\n");
 	}
-	for(i=0; i<3; i++)
-	{
-		free(a[i]);
-	}
-	free(a);
 	for(i= 0; i< 3; i++)
   	{
   		for(j=0;j<3;j++)
